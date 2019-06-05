@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Polycube.Infrastructure
+namespace Appname.Infrastructure
 {
     public static class Timer
     {

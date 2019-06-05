@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Polycube.Infrastructure
+namespace Appname.Infrastructure
 {
     public enum EasingEquation
     {

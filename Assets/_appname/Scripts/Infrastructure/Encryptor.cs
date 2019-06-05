@@ -2,7 +2,7 @@
 using System.IO;
 using System.Security.Cryptography;
 
-namespace Polycube.Infrastructure
+namespace Appname.Infrastructure
 {
     public class Encryptor
     {

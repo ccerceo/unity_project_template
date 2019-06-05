@@ -7,9 +7,7 @@ namespace Appname.Presentation
     {
         public override void InstallBindings ()
         {
-            var goCreationParams = new GameObjectCreationParameters();
-            goCreationParams.Name = typeof(GameController).Name;
-            Container.Bind<GameController>().FromNewComponentOnNewGameObject(goCreationParams).AsSingle().NonLazy();
+            Container.Bind<GameController>().FromNewComponentOnNewGameObject().AsSingle().NonLazy();
             Container.Bind<SceneNavigation>().AsSingle();
         }
     }   

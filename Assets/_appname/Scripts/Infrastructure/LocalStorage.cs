@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Polycube.Infrastructure
+namespace Appname.Infrastructure
 {
     public static class LocalStorage
     {
